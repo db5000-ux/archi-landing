@@ -36,7 +36,8 @@ for (const expected of [
   'https://september-learning-quest.vercel.app',
   'https://projection-houses.vercel.app',
   'https://github.com/db5000-ux/projection-houses',
-  'https://gnb-master.vercel.app/'
+  'https://gnb-master.vercel.app/',
+  'https://arlion-minsk.vercel.app'
 ]) results.push({ href: expected, ok: hrefs.includes(expected) });
 
 console.log(JSON.stringify({ results, consoleErrors, requestFailures }, null, 2));

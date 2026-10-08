@@ -8,6 +8,7 @@ const projects = [
   ['living-notebook', 'https://living-notebook-learning.vercel.app'],
   ['learning-quest', 'https://september-learning-quest.vercel.app'],
   ['projection-houses', 'https://projection-houses.vercel.app'],
+  ['arlion', 'https://arlion-minsk.vercel.app'],
 ];
 
 const browser = await chromium.launch({ executablePath: '/usr/bin/google-chrome', headless: true });

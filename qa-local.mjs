@@ -50,7 +50,7 @@ for (const viewport of viewports) {
     max: document.querySelector('.contact-links a[href^="https://max.ru/"]')?.href,
     telegram: document.querySelector('.contact-links a[href^="https://t.me/"]')?.href,
   }));
-  const ok = result.scrollWidth === result.viewport && result.images.every(image => image.complete && image.natural[0] > 0) && result.processRenders === 3 && result.projects === 7 && result.educationVariants === 3 && result.educationPreviews === 3 && result.solutionCards === 4 && result.controlCopy && result.email?.includes('as.creative2018world@gmail.com') && result.max && result.telegram && errors.length === 0 && requestFailures.length === 0;
+  const ok = result.scrollWidth === result.viewport && result.images.every(image => image.complete && image.natural[0] > 0) && result.processRenders === 3 && result.projects === 9 && result.educationVariants === 3 && result.educationPreviews === 3 && result.solutionCards === 4 && result.controlCopy && result.email?.includes('as.creative2018world@gmail.com') && result.max && result.telegram && errors.length === 0 && requestFailures.length === 0;
   if (!ok) failed = true;
   console.log(JSON.stringify({ viewport: viewport.name, ok, result, errors, requestFailures }, null, 2));
   await page.close();
