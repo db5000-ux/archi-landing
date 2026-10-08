@@ -1,8 +1,14 @@
 screenshots/
 qa-*.mjs
+capture-project-assets.mjs
 assets/automation-system.png
 assets/optical-intelligence.png
 assets/project-flowers.png
+assets/*-source.png
+assets/ai-architect-hero.png
+assets/research-table.png
+assets/project-academy.png
+assets/project-gnb.png
 styles.css
 styles-v2.css
 styles-v3.css
