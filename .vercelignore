@@ -1,14 +1,24 @@
-screenshots/
-qa-*.mjs
-capture-project-assets.mjs
-assets/automation-system.png
-assets/optical-intelligence.png
-assets/project-flowers.png
-assets/*-source.png
+# Source captures and unused heavyweight originals. Production uses optimized WebP assets.
+assets/academy-strateg-source.png
+assets/academy-discoveries-source.png
+assets/arlion-source.png
+assets/minsk-events-source.png
+assets/projection-houses-source.png
 assets/ai-architect-hero.png
+assets/automation-system.png
 assets/research-table.png
+assets/optical-intelligence.png
 assets/project-academy.png
+assets/project-flowers.png
 assets/project-gnb.png
+assets/project-gnb.webp
+assets/project-arlion.webp
+
+# Local QA artifacts are not part of the published portfolio.
+screenshots/
+capture-project-assets.mjs
+qa-local.mjs
+qa-links.mjs
 styles.css
 styles-v2.css
 styles-v3.css

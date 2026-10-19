@@ -25,19 +25,15 @@ for (const selector of ['a[href="#main"]','a[href="#top"]','a[href="#system"]','
 
 const hrefs = await page.locator('a').evaluateAll(links => links.map(link => link.getAttribute('href')));
 for (const expected of [
-  'mailto:as.creative2018world@gmail.com?subject=Новая%20задача%20для%20AI-архитектора%20ASC',
+  'mailto:as.creative2018world@gmail.com?subject=AI%20Agent%20Engineer',
   'mailto:as.creative2018world@gmail.com',
   'https://t.me/DmitriBajda',
   'https://max.ru/u/f9LHodD0cOLPMJWfCE5NblW8kGItx5hcMws5Yu49O9Dwn6mp-wGRItE9IdA',
   'https://academy-strateg.by',
   'https://minsk-events-monitor.vercel.app',
-  'https://academy-of-discoveries.vercel.app',
-  'https://living-notebook-learning.vercel.app',
-  'https://september-learning-quest.vercel.app',
   'https://projection-houses.vercel.app',
   'https://github.com/db5000-ux/projection-houses',
-  'https://gnb-master.vercel.app/',
-  'https://arlion-minsk.vercel.app'
+  'https://github.com/db5000-ux/projection-houses'
 ]) results.push({ href: expected, ok: hrefs.includes(expected) });
 
 console.log(JSON.stringify({ results, consoleErrors, requestFailures }, null, 2));
