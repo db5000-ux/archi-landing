@@ -4,9 +4,6 @@ const { chromium } = playwright;
 const projects = [
   ['academy-strateg', 'https://academy-strateg.by'],
   ['minsk-events', 'https://minsk-events-monitor.vercel.app'],
-  ['academy-discoveries', 'https://academy-of-discoveries.vercel.app'],
-  ['living-notebook', 'https://living-notebook-learning.vercel.app'],
-  ['learning-quest', 'https://september-learning-quest.vercel.app'],
   ['projection-houses', 'https://projection-houses.vercel.app'],
   ['arlion', 'https://arlion-minsk.vercel.app'],
 ];
